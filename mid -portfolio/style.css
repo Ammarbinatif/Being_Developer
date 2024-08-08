@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo img{
+    width:110px;
+    margin-left: 100px;
+
+}
+
+ 
+body{
+    background:black;
+    color: white;
+    overflow: hidden;
+    background-image: url(images/bkg1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+
+}
+.header{
+    display: inline-block;
+    left: 0;
+    width: 100%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+   
+    
+}
+.header .netflix {
+    border: 2px solid lightskyblue;
+    border-radius: 50px;
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+.header .shopify {
+    border: 2px solid lightskyblue;
+    border-radius: 50px;
+    font-size: 22px;
+    padding: 10px;}
+.navbar a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.home{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding:0  10%;
+    
+
+}
+.home-content{
+    max-width: 500px
+}
+.home-content h1{
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    
+}
+.home-content h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: aqua;
+    margin-top: 10px;
+}
+.home-content p{
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    margin-top: 10px;
+}
+.home-content .btn-box{
+    width: 340px;
+    height: 50px;
+    
+    
+}
+.btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:aqua;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    color:whit;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.btn-box a{
+    background: transparent;
+    color: white;
+}
+.btn-box a:hover{
+color: aqua;
+
+}
+.home-sci{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    
+    justify-content: space-between;
+    display: flex;
+
+}
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    color: #00abf0;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}
+.home-sci a::before{
+    content:' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    height: 100%;
+    background: red;
+    z-index: -1;
+}
+.home-sci a:hover:before{
+    width: 100%;
+}
+/* .home
+{
+    margin-left: 10%;
+    margin-top: 13%;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+.home-content h1{
+    letter-spacing: 1.5px;
+}
+.home-content h3{
+    margin-top: 10px;
+    letter-spacing: 1px;
+
+}
+.home-content h3{
+    color: aqua;
+    cursor: pointer;
+}
+.home-content p{
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} */
+
+ /* .btn-box{
+    margin-top: 60px;
+    border-radius: 10px;
+    padding: 0 10%;
+
+}
+ .home-content .btn-box a{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 100%;
+    border: 2px soli lightseagreen;
+    border: 8px;
+
+} */
